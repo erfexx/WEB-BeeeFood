@@ -1,0 +1,232 @@
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    overflow: auto;
+}
+
+@font-face {
+    font-family: Mistral;
+    src: url('../assets/font/MISTRAL.TTF');
+}
+
+@font-face {
+    font-family: Letter;
+    src: url('../assets/font/Letters.ttf');
+}
+
+@font-face {
+    font-family: Muro;
+    src: url('../assets/font/Muro.otf');
+}
+
+.h-100{
+    height: 100%;
+}
+
+.line{
+    width: 6px;
+    height: 300%;
+    background-color: #fff;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.home-content{
+    color:#fff !important;
+    display: flex;
+}
+
+.quick-search, .around, .around-anggrek{
+    margin-top: 15px;
+    position: relative;
+}
+
+.around-anggrek{
+    flex:1;
+}
+
+.quick-search-text, .around-text, .around-anggrek-text{
+    font-family: Letter;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.quick-search-ball{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    top:11px;
+    left:-32.5px;
+}
+
+.around-ball{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    top:160px;
+    left:-32.5px;
+}
+
+.around-anggrek-ball{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    top:10px;
+    left:-32.5px;
+}
+
+.food-type-wrapper{
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.food-type-wrapper a:hover{
+    text-decoration: none;
+}
+
+.food-type-image{
+
+}
+
+.food-type-image-wrapper{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(129,129,129);
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.food-type-text{
+    /*text-decoration: none;*/
+    color: #fcac00;
+    font-family: Letter;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.food-type-content{
+    /*margin-right: 100px;*/
+}
+
+.main-content{
+    width: 100%;
+}
+
+.filter-wrapper, .food-wrapper{
+    font-family: Letter;
+    color:#fff;
+    background-color: rgb(129,129,129);
+    font-weight: bold;
+}
+
+.filter-wrapper{
+    margin-left: 20px;
+}
+
+.filter-title{
+    font-size: 30px;
+    border-bottom: 1px solid #fff;
+}
+
+.sort-by-wrapper, .facilities-wrapper{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.facilities-wrapper{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.sort-by-type{
+    color: #494949;
+}
+
+.facilities-circle{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #494949;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.restaurant-type-text{
+    font-size: 16px;
+}
+
+.restaurant-name-text{
+    font-family: Muro;
+    font-size: 40px;
+    color: #df9800;
+    margin-top: -10px;
+}
+
+.restaurant-address-text{
+    font-size: 22px;
+}
+
+.restaurant-medal{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.view-review-button{
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #ffb10c;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 2px 45px;
+    border-radius: 4px;
+}
+
+.restaurant-wrapper{
+    position: relative;
+    display: flex;
+    padding: 10px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+
+.restaurant-image{
+    /*display: inline-block;*/
+}
+
+.restauran-info-wrapper{
+    /*display: inline-block;*/
+}
+
+.restaurant-image{
+    margin-right: 20px;
+}
+
+.restaurant-image img{
+    border: 1px solid #fff;
+}
+
+.food-filter-wrapper{
+    width: 100%;
+    height:65%;
+}
+
